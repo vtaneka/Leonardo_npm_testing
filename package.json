@@ -1,23 +1,22 @@
 {
-  "name": "leonardo_core",
+  "name": "Leonardo_npm_testing",
   "version": "1.0.0",
   "description": "Leonardo Core",
   "main": "server.js",
   "scripts": {
     "start":"node server",
     "build": "webpack",
-    "postinstall":"gulp & webpack & npm start",
     "serve": "webpack-dev-server -w",
     "start:dev": "webpack & npm start"
   },
   "author": "Compro Technologies",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     
   },
   "repository": {
-  "type": "github",
-  "url": "git+https://github.com/vtaneka/Leonardo_npm_testing.git"
+  "type": "git",
+  "url": "https://github.com/vtaneka/Leonardo_npm_testing.git"
 },
   "devDependencies": {
   }
