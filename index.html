@@ -1,0 +1,34 @@
+<html>
+
+<body>
+    <div class="DLSLeonardo" id="Leo1" style="width:100%;display:inline-block;">        
+    </div>
+    <div class="DLSLeonardo" id="Leo2" style="width: 100%;display:inline-block;">
+    </div>
+</body>
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="./dist/ribbon.styles.bundle.css"></link>
+    <script src="./dist/kendoStyles.bundle.js"></script>    
+    <script src="./libs/scripts/jquery.js"></script>    
+    <script src="./dist/scripts.bundle.js"></script>
+    <script src="./dist/ribbon.scripts.bundle.js"></script>
+    <script src="./inputData.js"></script>
+
+
+    <!-- <script src=".dist/styles.bundle.js"></script> -->
+    <script>        
+        let callbacks = {};
+        let leonardo = new Leonardo.scripts.init();
+        leonardo.addWidget("WB1",document.querySelector("#Leo1"),newLeoConfig,callbacks,newLeoConfigCorrect);
+        var tooltip = $(".k-comment-cell").kendoTooltip({
+            width: 120,
+            position: "right"
+        }).data("kendoTooltip");
+    </script>
+</head>
+
+
+
+</html>7
